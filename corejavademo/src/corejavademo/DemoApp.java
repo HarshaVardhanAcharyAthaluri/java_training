@@ -1,33 +1,18 @@
 package corejavademo;
 
-public class DemoApp implements DemoInterface{
-	
-	@Override
-	public void display() {
-		// TODO Auto-generated method stub
-		
-	}
+import com.coretraining.Sample;
 
-	@Override
-	public void some() {
-		// TODO Auto-generated method stub
-		
-	}
+
+public class DemoApp{
 	
-	@Override
-	public void additionalMethod() {
-		// TODO Auto-generated method stub
-		
-	}
 	
 	public static void main(String[] args) {
 		
+		Sample s = new Sample();
+		s.display();
+		System.out.println(s.message);
+	
+		
+		
 	}
-
-	
-
-	
-
-
-	
 }
