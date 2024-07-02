@@ -10,6 +10,7 @@ public class MapDemo {
 
 	public static void main(String[] args) {
 		Map<Integer, String> hashMap = new HashMap(); 
+		
 		hashMap.put(1, "Joe");
 		hashMap.put(2, "Ross");
 		hashMap.put(3, "Chandler");
